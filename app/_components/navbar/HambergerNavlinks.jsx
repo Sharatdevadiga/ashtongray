@@ -3,7 +3,6 @@
 import navLinks from "@/app/_util/constants/navLinks";
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { useStyleRegistry } from "styled-jsx";
 import NavLinks from "./NavLinks";
 import useClickOutside from "@/app/_hooks/useClickOutside";
 

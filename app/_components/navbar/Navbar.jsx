@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Button from "../ui/Button";
 import NavLinks from "./NavLinks";
 import Link from "next/link";
 import HambergerNavlinks from "./HambergerNavlinks";
+import CustomLink from "../ui/CustomLink";
 
 function Navbar() {
   return (
@@ -28,7 +28,7 @@ function Navbar() {
             <NavLinks />
           </div>
           <div className="flex items-center gap-4">
-            <Button type="primary" text="signup"></Button>
+            <CustomLink to="/" type="primary" text="signup"></CustomLink>
           </div>
         </div>
       </div>
